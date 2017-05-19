@@ -19,6 +19,9 @@ A user to create(if needed) root directory/extract archive. Defaults to root.
 `browsermob_proxy_dest`
 Where package with browsermob will be extracted. Defaults to `/opt/`. Note that browsermob allows
 you to configure user to check root directory and extract archive. 
+
+`browsermob_root_dir_user`
+A user to be set as an owner of root directory of browsermob data.
  
 
 Example Playbook
