@@ -8,3 +8,9 @@
   unarchive: src={{ browsermob_proxy_url }} dest={{ browsermob_proxy_dest }} remote_src=True
   become: yes
   become_user: "{{ browsermob_user }}"
+
+- name: set permissions
+  file: path={{ browsermob_proxy_dest }}/browsermob-proxy-{{ browsermob_proxy_version }}
+        state=directory
+        owner={{ browsermob_root_dir_user }}
+        recurese: yes
