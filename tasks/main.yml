@@ -13,4 +13,4 @@
   file: path={{ browsermob_proxy_dest }}/browsermob-proxy-{{ browsermob_proxy_version }}
         state=directory
         owner={{ browsermob_root_dir_user }}
-        recurese: yes
+        recurese=yes
