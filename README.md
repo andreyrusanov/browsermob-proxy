@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 Browsermob-proxy
-=========
+================
 
 Very tiny role to set up browsermob in standalone mode. 
 
@@ -8,7 +7,7 @@ Very tiny role to set up browsermob in standalone mode.
 Role Variables
 --------------
 
-`brwosermob_proxy_url`   
+`browsermob_proxy_url`   
 Normally you don't need to change it. Default value is `"https://github.com/lightbody/browsermob-proxy/releases/download/browsermob-proxy-{{ browsermob_proxy_version }}/browsermob-proxy-{{ browsermob_proxy_version }}-bin.zip"`.
 
 `browsermob_proxy_version`
@@ -39,7 +38,4 @@ MIT
 Author Information
 ------------------
 
-The role is extremely easy. Contributors are welcome.
-=======
-# browsermob-proxy
->>>>>>> 5893bef5ec3b99ea89b3f1548dc9dfa78690f182
+The role is extremely easy. Contributions are welcome.
