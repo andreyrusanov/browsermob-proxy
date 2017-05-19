@@ -1,0 +1,5 @@
+---
+browsermob_proxy_version: 2.1.4
+browsermob_proxy_url: "https://github.com/lightbody/browsermob-proxy/releases/download/browsermob-proxy-{{ browsermob_proxy_version }}/browsermob-proxy-{{ browsermob_proxy_version }}-bin.zip"
+browsermob_proxy_dest: /opt/
+browsermob_user: root

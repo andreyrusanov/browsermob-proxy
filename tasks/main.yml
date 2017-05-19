@@ -1,0 +1,10 @@
+---
+- name: create bmp folder if not exists
+  file: path={{ browsermob_proxy_dest }} state=directory
+  become: yes
+  become_user: "{{ browsermob_user }}"
+
+- name: download bmp
+  unarchive: src={{ browsermob_proxy_url }} dest={{ browsermob_proxy_dest }} remote_src=True
+  become: yes
+  become_user: "{{ browsermob_user }}"
